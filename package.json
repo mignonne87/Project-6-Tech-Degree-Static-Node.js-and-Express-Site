@@ -1,0 +1,27 @@
+{
+  "name": "Project-6-Tech-Degree-Static-Node.js-and-Express-Site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mignonne87/Project-6-Tech-Degree-Static-Node.js-and-Express-Site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mignonne87/Project-6-Tech-Degree-Static-Node.js-and-Express-Site/issues"
+  },
+  "homepage": "https://github.com/mignonne87/Project-6-Tech-Degree-Static-Node.js-and-Express-Site#readme"
+}

@@ -1,0 +1,84 @@
+{
+    "projects": [  
+        {
+        "id":1,
+        "project_name": "Random Quote Generator",
+        "description": "Generate Random Quotes",
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "CSS"
+        ],
+        "live_link":"https://mignonne87.github.io/RandomQuoteGenerator/.",
+        "github_link":"https://github.com/mignonne87/RandomQuoteGenerator",
+        "image_urls":[
+            "/path/to/some/image",
+            "/path/to/another/image"
+            ]
+        },
+        {
+            "id":2,
+            "project_name": "List Pagination and Filtering",
+            "description": "Generate Random List of Students",
+            "technologies": [
+                "JavaScript", 
+                "HTML", 
+                "CSS"
+            ],
+            "live_link":"https://mignonne87.github.io/Project-2-Tech-Degree-/.",
+            "github_link":"https://github.com/mignonne87/Project-2-Tech-Degree-",
+            "image_urls":[
+                "/path/to/some/image",
+                "/path/to/another/image"
+                ]
+            },
+            {
+                "id":3,
+                "project_name": "Interactive Form",
+                "description": "Full Stack Conference Registration",
+                "technologies": [
+                    "JavaScript", 
+                    "HTML", 
+                    "CSS"
+                ],
+                "live_link":"https://mignonne87.github.io/Project-3-Tech-Degree-/.",
+                "github_link":"https://github.com/mignonne87/Project-3-Tech-Degree-",
+                "image_urls":[
+                    "/path/to/some/image",
+                    "/path/to/another/image"
+                    ]
+                },
+                {
+                    "id":4,
+                    "project_name": "OOP Game Show App",
+                    "description": "Phrase Hunter App",
+                    "technologies": [
+                        "JavaScript", 
+                        "HTML", 
+                        "CSS"
+                    ],
+                    "live_link":"https://mignonne87.github.io/Project-4-OOP-Game-Show-App/.",
+                    "github_link":"https://github.com/mignonne87/Project-4-OOP-Game-Show-App",
+                    "image_urls":[
+                        "/path/to/some/image",
+                        "/path/to/another/image"
+                        ]
+                    },
+                    {
+                        "id":5,
+                        "project_name": "Public API Request",
+                        "description": "Awesome Startup Employee Directory",
+                        "technologies": [
+                            "JavaScript", 
+                            "HTML", 
+                            "CSS"
+                        ],
+                        "live_link":"https://mignonne87.github.io/Project-5-Public-API-Request/.",
+                        "github_link":"https://github.com/mignonne87/Project-5-Public-API-Request",
+                        "image_urls":[
+                            "/path/to/some/image",
+                            "/path/to/another/image"
+                            ]
+                        }
+    ]
+}
