@@ -12,14 +12,15 @@
         "live_link":"https://mignonne87.github.io/RandomQuoteGenerator/.",
         "github_link":"https://github.com/mignonne87/RandomQuoteGenerator",
         "image_urls":[
-            "/path/to/some/image",
-            "/path/to/another/image"
+            "/static/images/project1.2.png", 
+            "/static/images/project1.3.png"
+        
             ]
         },
         {
             "id":2,
             "project_name": "List Pagination and Filtering",
-            "description": "Generate Random List of Students",
+            "description": "Random List of Students",
             "technologies": [
                 "JavaScript", 
                 "HTML", 
@@ -28,8 +29,8 @@
             "live_link":"https://mignonne87.github.io/Project-2-Tech-Degree-/.",
             "github_link":"https://github.com/mignonne87/Project-2-Tech-Degree-",
             "image_urls":[
-                "/path/to/some/image",
-                "/path/to/another/image"
+                "/static/images/project2.png",
+                "/static/images/project2.1.png"
                 ]
             },
             {
@@ -44,8 +45,8 @@
                 "live_link":"https://mignonne87.github.io/Project-3-Tech-Degree-/.",
                 "github_link":"https://github.com/mignonne87/Project-3-Tech-Degree-",
                 "image_urls":[
-                    "/path/to/some/image",
-                    "/path/to/another/image"
+                    "/static/images/project3.png",
+                    "/static/images/project3.1.png"
                     ]
                 },
                 {
@@ -60,8 +61,8 @@
                     "live_link":"https://mignonne87.github.io/Project-4-OOP-Game-Show-App/.",
                     "github_link":"https://github.com/mignonne87/Project-4-OOP-Game-Show-App",
                     "image_urls":[
-                        "/path/to/some/image",
-                        "/path/to/another/image"
+                        "/static/images/project4.png",
+                        "/static/images/project4.1.png"
                         ]
                     },
                     {
@@ -76,8 +77,8 @@
                         "live_link":"https://mignonne87.github.io/Project-5-Public-API-Request/.",
                         "github_link":"https://github.com/mignonne87/Project-5-Public-API-Request",
                         "image_urls":[
-                            "/path/to/some/image",
-                            "/path/to/another/image"
+                            "/static/images/project5.png",
+                            "/static/images/project5.1.png"
                             ]
                         }
     ]
