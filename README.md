@@ -1,2 +1,3 @@
 # Project 6 Tech Degree Static Node.js and Express Site
- 
+This projects contains projects during my time at Verizon as an Apprentice. It includes RandomQuote Generator that generates different quotes, A RandomList of Students, Interactive Form that includes full stack conference registration, Phrase Hunter App for the OOP Game Show that include naming the phrase and Startup Employee Directory. 
+changed the background color, changed the color of my name, changed the font style to Georgia from Merriweather

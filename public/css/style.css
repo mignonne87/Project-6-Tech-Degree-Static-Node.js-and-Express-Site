@@ -1,6 +1,6 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Georgia', serif;
 }
 
   h5{
@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,p{
 
   p{
     font-size: 15px;
-    color: #666;
+    color: rgb(0, 0, 0);
   }
 
 .round{
@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button{
-  background-color: #333;
+  background-color: rgb(25, 48, 173);
 }
 
 .button:hover{
@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 a{
-  color: #333;
+  color: rgb(25, 135, 185);
 }
 
 a:hover{
@@ -52,14 +52,14 @@ a:hover{
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  box-shadow: 0 0 0 1px rgba(13, 109, 173, 0.2);
   line-height: 0;
 }
 
 .portfolio-me{
   padding: 20px;
   background: #121213;
-  color: #fff;
+  color: rgb(199, 32, 32);
   box-shadow: none !important;
 }
 
@@ -117,7 +117,7 @@ a:hover{
   }
 
   .portfolio-index a{
-    color: #222;
+    color: rgb(0, 0, 0);
   }
 
   .portfolio-index .cell{
@@ -147,4 +147,10 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+body{
+  /* background-color: rgb(245, 228, 202); */
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/122/367/non_2x/vector-textured-grunge-background.jpg');
+  background-size: cover;
 }

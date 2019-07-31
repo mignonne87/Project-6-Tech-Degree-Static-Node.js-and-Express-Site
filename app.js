@@ -1,49 +1,54 @@
-const express = require('express');  // add variable
-
+  // ADD VARIABLES TO REQUIRE EXPRESS AND DATA.JSON
+const express = require("express");
 const app = express();
-
+const path = require("path");
 const data = require("./data.json");
+const projects = data.projects;
 
-const path = require('path');
+app.set("view engine", "pug");                                   // Set view engine to pug
+app.set("views", path.join(__dirname, "views"));                // Set views directory
+app.use("/static", express.static(path.join(__dirname, "public")));
+app.use("/images", express.static(path.join(__dirname, "/images/")));
 
-app.set ('view engine', 'pug');  // set view engine to pug
 
-// app.set('views', path.join(__dirname, 'views'));
-//specify Pug as the view engine for the app
+// SET 'INDEX' ROUTE
+app.get("/", (req, res) => {
+    res.render("index", { projects });
+});
+  
 
-//This is middleware to access the public folder via route /static
-app.use('/static', express.static(path.join(__dirname, 'public')));
-app.use('/images',express.static(path.join(__dirname, '/images/')));
+// SETTING 'ABOUT' ROUTE
+app.get("/about", (req, res) => {
+    res.render("about");
+});
+  
 
-// Set Routes
-app.get('/', (req, res) => {
-    res.render('index', {projects: data.projects});
-
+// SET 'PROJECTS' ROUTE
+app.get("/projects/:id", (req, res) => {
+    const { id } = req.params;
+    const project = projects[id -1];
+    res.render("project", { project });
 });
 
-app.get('/project', (req, res) => {
-    let projectRoute = req.querty.id;
-    res.render('project', {projects: data.projects[projectRoute]} );
 
-});
-app.get('/about', (req, res) => {
-    res.render('about')
-});
-
-
-// Handle Errors
+// SET ERROR MSG TO 404 IF ROUTE NOT FOUND
 app.use((req, res, next) => {
-    const err = new Error('Page not found');
+    const err = new Error("Not Found");
     err.status = 404;
+    console.log("Page Not Found!")
     next(err);
 });
+  
 
+// RENDER ERROR PAGE WITH ERROR PASSED IN
 app.use((err, req, res, next) => {
     res.locals.error = err;
-    res.status(err.status || 500);
-    console.log(err + '')
-    res.send('error');
-})
-  app.listen(3000, () => {
-  console.log('Application is running on localhost:3000!'); 
+    res.status(err.status);
+    console.log(`You have an error ${err.status} error.`);
+    res.render("error");
+});
+
+// START SERVER, LISTENING ON PORT 3000
+app.listen(3000, () => {
+    console.log("Listening to localhost:3000");
   });
