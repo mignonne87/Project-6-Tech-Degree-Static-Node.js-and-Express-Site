@@ -1,3 +1,7 @@
+extends layout.pug
+
+block content 
+ 
  h1= `${error.message} - Status: 404`
     img.error(src=`/static/images/dangerzone404.png`)
     p= error.stack
